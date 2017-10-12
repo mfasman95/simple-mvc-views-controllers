@@ -29,5 +29,15 @@
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
     "serve-favicon": "^2.3.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb/base",
+    "rules": {
+      "no-underscore-dangle": "off",
+      "no-plusplus": "off"
+    }
+  },
+  "babel": {
+    "presets": ["env"]
   }
 }
